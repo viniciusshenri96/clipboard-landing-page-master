@@ -271,3 +271,31 @@ ul {
 .clipboard-description {
   font: var(--fw-regular) var(--font-body-big) / 1.5 "Bai Jamjuree", sans-serif;
 }
+
+/************************/
+/* FOOTER */
+/************************/
+.footer-bg {
+  background-color: var(--color-secondary);
+  /* opacity: 10.02%; */
+}
+
+.footer {
+  display: flex;
+  gap: 135px;
+}
+
+.footer-logo {
+  height: 5.5rem;
+}
+
+.footer-navigation {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 1.2rem;
+  column-gap: 3rem;
+}
+
+.footer-redes {
+  margin-left: auto;
+}
