@@ -259,5 +259,15 @@ ul {
 }
 
 /************************/
-/* CUSTOMERS */
+/* CLIPBOARD */
 /************************/
+.section-clipboard {
+  text-align: center;
+  margin-bottom: 15rem;
+}
+.clipboard-text {
+  margin-bottom: 4.8rem;
+}
+.clipboard-description {
+  font: var(--fw-regular) var(--font-body-big) / 1.5 "Bai Jamjuree", sans-serif;
+}
