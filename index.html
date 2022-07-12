@@ -19,58 +19,63 @@
 <body>
   <header class="header">
     <section class="section-hero container">
-      <img src="./assets/images/logo.svg" class="hero-img" alt="clipboard logo">
+      <img src="./assets/images/logo.svg" class="hero-img" alt="clipboard logo is a circle with a C plus">
       <h1 class="heading-primary">A history of everything you copy</h1>
       <p class="hero-description">Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.</p>
-      <a href="#" class="btn btn--ios margin-right-1-6">Download for IOS</a>
-      <a href="#" class="btn btn--mac">Download for Mac</a>
+      <div class="btn-box">
+        <a href="#" class="btn btn--ios ">Download for IOS</a>
+        <a href="#" class="btn btn--mac">Download for Mac</a>
+      </div>
     </section>
   </header>
 
   <main>
     <section class="section-snippets">
-      <div class="grid container">
+      <div class="heading-text container">
         <h2 class="snippets-title heading-secondary">Keep track of your snippets</h2>
         <p class="snippets-description font-body-medium">Clipboard instantly stores any item you copy in the cloud,
           meaning you can access your snippets immediately on all your
           devices. Our Mac and iOS apps will help you organize everything.</p>
       </div>
 
-      <div class="snippets-features-box">
-        <img src="./assets/images/image-computer.png" class="snippets-img" alt="">
+      <div class="snippets-features-box container">
+        <img src="./assets/images/image-computer.png" class="snippets-img" alt="computer screen showing that the transfer is complete
+        ">
         <ul class="snippets-features">
           <li class="snippets-item">
             <h3 class="heading-tertiary">Quick Search</h3>
-            <p class="font-body-normal">Easily search your snippets by content, category, web address, application, and more.</p>
+            <p class="features-description font-body-normal">Easily search your snippets by content, category, web address, application, and more.</p>
           </li>
           <li class="snippets-item">
             <h3 class="heading-tertiary">iCloud Sync</h3>
-            <p class="font-body-normal">Instantly saves and syncs snippets across all your devices.</p>
+            <p class="features-description  font-body-normal">Instantly saves and syncs snippets across all your devices.</p>
           </li>
           <li class="snippets-item">
             <h3 class="heading-tertiary">Complete History</h3>
-            <p class="font-body-normal">Retrieve any snippets from the first moment you started using the app.</p>
+            <p class="features-description font-body-normal">Retrieve any snippets from the first moment you started using the app.</p>
           </li>
         </ul>
       </div>
     </section>
 
-
-    <article class="article-access">
-      <div class="access-text grid">
+    <!-- <article class="article-access ">
+      <div class="heading-text container grid">
         <h2 class="heading-secondary">Access Clipboard anywhere</h2>
-        <p class="access-description font-body-medium">Whether you're on the go, or at your computer, you can access all your Clipboard
+        <p class="font-body-medium">Whether you're on the go, or at your computer, you can access all your Clipboard
           snippets in a few simple clicks.</p>
       </div>
-      <img src="./assets/images/image-devices.png" class="access-img" alt="">
+
+      <img src="./assets/images/image-devices.png" class="access-img" alt="screen shows clipboard completed">
+
     </article>
 
-
     <section class="section-workflow container">
-      <div class="workflow-text grid">
-        <h2 class="heading-secondary ">Supercharge your workflow</h2>
+      <div class="heading-text grid">
+        <h2 class="heading-secondary">Supercharge your workflow</h2>
         <p class="workflow-description font-body-medium">We’ve got the tools to boost your productivity.</p>
       </div>
+
+
       <ul class="workflow-tools">
         <li class="workflow-item">
           <svg class="workflow-icon" width="44" height="40" xmlns="http://www.w3.org/2000/svg">
@@ -100,29 +105,31 @@
       </ul>
     </section>
 
-
     <section class="section-customers container">
-      <img src="./assets/images/logo-google.png" alt="">
-      <img src="./assets/images/logo-ibm.png" alt="">
-      <img src="./assets/images/logo-microsoft.png" alt="">
-      <img src="./assets/images/logo-hp.png" alt="">
-      <img src="./assets/images/logo-vector-graphics.png" alt="">
+      <img src="./assets/images/logo-google.png" alt="logo google">
+      <img src="./assets/images/logo-ibm.png" alt="logo ibm">
+      <img src="./assets/images/logo-microsoft.png" alt="logo microsoft">
+      <img src="./assets/images/logo-hp.png" alt="logo hp">
+      <img src="./assets/images/logo-vector-graphics.png" alt="logo vector graphics">
     </section>
-
+    
     <section class="section-clipboard container">
-      <div class="clipboard-text grid">
+      <div class="heading-text clipboard-text grid">
         <h2 class="heading-secondary">Clipboard for iOS and Mac OS</h2>
         <p class="clipboard-description">Available for free on the App Store. Download for Mac or iOS, sync with iCloud
           and you’re ready to start adding to your clipboard.</p>
       </div>
-      <a href="#" class="btn btn--ios margin-right-1-6">Download for IOS</a>
-      <a href="#" class="btn btn--mac">Download for Mac</a>
+      <div class="btn-box">
+        <a href="#" class="btn btn--ios ">Download for IOS</a>
+        <a href="#" class="btn btn--mac">Download for Mac</a>
+      </div>
     </section> -->
   </main>
 
-  <footer class="footer-bg">
+  <!-- <footer class="footer-bg">
     <div class="footer container">
-      <img src="./assets/images/logo.svg" class="footer-logo" alt="">
+      <img src="./assets/images/logo.svg" class="footer-logo" alt="clipboard company
+      ">
       <nav>
         <ul class="footer-navigation">
           <li class="footer-item">
@@ -142,8 +149,6 @@
           </li>
         </ul>
       </nav>
-
-
       <ul class="footer-redes">
         <li>
           <a href="#" class="footer-icon">
@@ -154,7 +159,7 @@
         </li>
         <li>
           <a href="#" class="footer-icon">
-            <svg width="24" height="20" xmlns="http://www.w3.org/2000/svg">
+            <svg width="24" height="20" aria-label="twitter">
               <path d="M24 2.557a9.83 9.83 0 01-2.828.775A4.932 4.932 0 0023.337.608a9.864 9.864 0 01-3.127 1.195A4.916 4.916 0 0016.616.248c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 011.671 1.149a4.93 4.93 0 001.523 6.574 4.903 4.903 0 01-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 01-2.224.084 4.928 4.928 0 004.6 3.419A9.9 9.9 0 010 17.54a13.94 13.94 0 007.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0024 2.557z" fill="#4C545C" fill-rule="nonzero" />
             </svg>
           </a>
@@ -169,7 +174,7 @@
         </li>
       </ul>
     </div>
-  </footer>
+  </footer> -->
 </body>
 
 </html>
