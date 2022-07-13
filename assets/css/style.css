@@ -68,29 +68,28 @@ ul {
   font: var(--fw-semiBold) var(--font-h2) / var(--lh-1-25) "Bai Jamjuree",
     sans-serif;
   color: var(--color-primary);
-  letter-spacing: -0.037px;
+  letter-spacing: -0.059rem;
   margin-bottom: 1.9rem;
 }
-
 .heading-tertiary {
   font: var(--fw-semiBold) var(--font-h3) / var(--lh-1-25) "Bai Jamjuree",
     sans-serif;
   color: var(--color-primary);
-  letter-spacing: -0.024px;
+  letter-spacing: -0.039rem;
 }
 
 .font-body-medium {
   font: var(--fw-regular) var(--font-body-medium) / var(--lh-1-67)
       "Bai Jamjuree",
     sans-serif;
-  letter-spacing: 0.14px;
+  letter-spacing: 0.014rem;
 }
 
 .font-body-normal {
   font: var(--fw-regular) var(--font-body-normal) / var(--lh-1-88)
       "Bai Jamjuree",
     sans-serif;
-  letter-spacing: 0.12px;
+  letter-spacing: 0.012rem;
 }
 
 .btn-box {
@@ -184,10 +183,10 @@ ul {
 }
 
 .snippets-features-box {
-  max-width: 128rem;
+  max-width: 127.6rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
+  align-items: end;
   gap: 11rem;
   margin-left: -6.4rem;
 }
@@ -195,6 +194,7 @@ ul {
 .snippets-features {
   display: grid;
   row-gap: 56px;
+  padding-bottom: 9.7rem;
 }
 .snippets-item {
   display: grid;
@@ -211,7 +211,7 @@ ul {
 }
 
 .access-img {
-  height: 47.5rem;
+  width: 81.2rem;
 }
 
 /* ========== WORKFLOW SECTION ==========  */
@@ -249,6 +249,7 @@ ul {
   align-items: center;
   gap: 9.5rem;
   margin-bottom: 15rem;
+  height: 7.2rem;
 }
 
 /* ========== CLIPBOARD SECTION ==========  */
