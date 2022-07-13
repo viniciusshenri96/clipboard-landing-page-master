@@ -9,42 +9,21 @@
 	🚧 Clipboard landing page ✔️ Concluído 🚀 🚧
 </h4>
 
-<!-- - [Frontend Mentor - Typemaster pre-launch landing page solution](#frontend-mentor---typemaster-pre-launch-landing-page-solution)
-  - [Table of contents](#table-of-contents)
-  - [Overview](#overview)
-    - [The challenge](#the-challenge)
-    - [Screenshot](#screenshot)
-    - [Links](#links)
-  - [My process](#my-process)
-    - [Built with](#built-with)
-    - [What I learned](#what-i-learned)
-    - [Continued development](#continued-development)
-    - [Useful resources](#useful-resources)
-  - [Author](#author)
-  - [Acknowledgments](#acknowledgments) -->
-
----
-
-<!-- <p align="center">
- <a href="#-sobre-o-projeto">Sobre</a> •
- <a href="#-funcionalidades">Funcionalidades</a> •
- <a href="#-layout">Layout</a> •
- <a href="#-como-executar-o-projeto">Como executar</a> •
- <a href="#-tecnologias">Tecnologias</a> •
- <a href="#-contribuidores">Contribuidores</a> •
- <a href="#-autor">Autor</a> •
- <a href="#user-content--licença">Licença</a>
-</p> -->
-
 ## 💻 Sobre o projeto
 
 ✔️ Clipboard landing page - É uma página de destino de área de transferência.
 
-✔️ Este projeto é um desafio do site Frontend Mentor, onde pude usar bastante classes e componentes reutilizáveis para tentar deixar meu css mais limpo.
+✔️ Este projeto é um desafio do site Frontend Mentor, onde pude usar bastante classes e componentes reutilizáveis para tentar deixar meu css mais limpo, também usei html{font-size 62.5%} para calcular px para rem mais facilmente e definir o body{font-size: 1.6}, para o texto da página não ficar muito pequeno.
 
 &nbsp;
 
 <img alt="" title="" src="readme/nivel.svg"/>
+
+---
+
+## 💡 Artigo sobre html{font-size 62.5%}:
+
+https://www.aleksandrhovhannisyan.com/blog/62-5-percent-font-size-trick/
 
 ---
 
@@ -56,12 +35,6 @@
 ---
 
 ## 🎨 Minha solução em diferentes telas:
-
-## <!-- O layout da aplicação está disponível no Figma: -->
-
-<!-- <a href="https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta?node-id=136%3A546">
-  <img alt="Made by tgmarinho" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
-</a> -->
 
 ### Mobile
 
@@ -79,13 +52,8 @@
 ### Tablet
 
 <p align="center">
-  <img alt="Typemaster pre-launch landing page" title="" src="./readme/tablet1.png">
+  <img alt="Typemaster pre-launch landing page" title="" src="./readme/tablet.png">
 
-  <img alt="Typemaster pre-launch landing page" title="" src="./readme/tablet2.png">
-
-  <img alt="Typemaster pre-launch landing page" title="" src="./readme/tablet3.png">
-
-  <!-- <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/sucesso-web.svg" width="400px"> -->
 </p>
 
 ### Desktop
@@ -93,87 +61,13 @@
 <p align="center">
   <img alt="Typemaster pre-launch landing page" title="" src="./readme/desktop.png">
 
-  <img alt="Typemaster pre-launch landing page" title="" src="./readme/desktop2.png">
-
-   <img alt="Typemaster pre-launch landing page" title="" src="./readme/desktop3.png">
-
-  <!-- <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/sucesso-web.svg" width="400px"> -->
 </p>
 
 ---
 
-<!--
-## 🚀 Como executar o projeto
-
-Este projeto é divido em três partes:
-
-1. Backend (pasta server)
-2. Frontend (pasta web)
-3. Mobile (pasta mobile)
-
-💡Tanto o Frontend quanto o Mobile precisam que o Backend esteja sendo executado para funcionar.
-
-### Pré-requisitos
-
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
-
-#### 🎲 Rodando o Backend (servidor)
-
-```bash
-
-# Clone este repositório
-$ git clone git@github.com:tgmarinho/README-ecoleta.git
-
-# Acesse a pasta do projeto no terminal/cmd
-$ cd README-ecoleta
-
-# Vá para a pasta server
-$ cd server
-
-# Instale as dependências
-$ npm install
-
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev:server
-
-# O servidor inciará na porta:3333 - acesse http://localhost:3333
-
-```
-
-<p align="center">
-  <a href="https://github.com/tgmarinho/README-ecoleta/blob/master/Insomnia_API_Ecoletajson.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
-</p>
-
-#### 🧭 Rodando a aplicação web (Frontend)
-
-```bash
-
-# Clone este repositório
-$ git clone git@github.com:tgmarinho/README-ecoleta.git
-
-# Acesse a pasta do projeto no seu terminal/cmd
-$ cd README-ecoleta
-
-# Vá para a pasta da aplicação Front End
-$ cd web
-
-# Instale as dependências
-$ npm install
-
-# Execute a aplicação em modo de desenvolvimento
-$ npm run start
-
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
-
-```
-
---- -->
-
 ## 🌎 Preview Site
 
-- [GitPages](https://viniciusshenri96.github.io/typemaster-pre-launch-landing-page/)
+- [GitPages](https://viniciusshenri96.github.io/clipboard-landing-page-master/)
 
 ## 🛠 Tecnologias
 
@@ -181,7 +75,7 @@ As seguintes ferramentas e tecnologias foram usadas na construção do projeto:
 
 <!-- - **HTML** -->
 
-<img alt="" title="" src="./readme/html.svg"/> <img alt="" title="" src="./readme/css.svg"/> <img alt="" title="" src="./readme/flexbox.svg"/> <img alt="" title="" src="./readme/grid.svg"/> <img alt="" title="" src="./readme/bem.svg"/> <img alt="" title="" src="./readme/media.svg"/> <img alt="" title="" src="./readme/figma.svg"/>
+<img alt="" title="" src="readme/html.svg"/> <img alt="" title="" src="readme/css.svg"/> <img alt="" title="" src="readme/flexbox.svg"/> <img alt="" title="" src="readme/grid.svg"/> <img alt="" title="" src="readme/bem.svg"/> <img alt="" title="" src="readme/media.svg"/> <img alt="" title="" src="readme/figma.svg"/>
 
 <!-- - **CSS** -->
 

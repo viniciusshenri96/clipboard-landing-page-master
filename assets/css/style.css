@@ -50,6 +50,7 @@ body {
   color: var(--color-secondary);
   line-height: 1;
   overflow-x: hidden;
+  font-size: 1.6rem;
 }
 
 ul {
