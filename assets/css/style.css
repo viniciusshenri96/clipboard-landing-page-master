@@ -207,7 +207,7 @@ ul {
   justify-content: center;
   justify-items: start;
   row-gap: 10rem;
-  margin-bottom: 8.8rem;
+  margin-bottom: 7.3rem;
 }
 
 /* ========== WORKFLOW SECTION ==========  */
@@ -231,7 +231,7 @@ ul {
   margin-bottom: 4rem;
 }
 .workflow-icon--bottom {
-  margin-bottom: 4.7rem;
+  margin-bottom: 4.8rem;
 }
 
 .workflow-item h3 {
@@ -258,7 +258,7 @@ ul {
   font: var(--fw-regular) var(--font-body-medium) / var(--lh-1-67)
       "Bai Jamjuree",
     sans-serif;
-  letter-spacing: 0.14px;
+  letter-spacing: 0, 014rem;
   max-width: 72rem;
   margin-bottom: 4.8rem;
 }
