@@ -202,16 +202,12 @@ ul {
 }
 
 /* ========== ACCESS SECTION ==========  */
-.article-access {
+.section-access {
   display: grid;
   justify-content: center;
   justify-items: start;
   row-gap: 10rem;
   margin-bottom: 8.8rem;
-}
-
-.access-img {
-  width: 81.2rem;
 }
 
 /* ========== WORKFLOW SECTION ==========  */

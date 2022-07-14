@@ -153,7 +153,7 @@
     row-gap: 1rem;
   }
 
-  .article-access {
+  .section-access {
     row-gap: 6.4rem;
   }
 
@@ -189,9 +189,9 @@
 
   .section-customers {
     flex-direction: column;
-    text-align: center;
     gap: 6rem;
     margin-bottom: 17rem;
+    height: initial;
   }
 
   .section-clipboard {
