@@ -287,4 +287,9 @@
   .access-img {
     width: 20rem;
   }
+
+  .btn:link,
+  .btn:visited {
+    font-size: 1.5rem;
+  }
 }

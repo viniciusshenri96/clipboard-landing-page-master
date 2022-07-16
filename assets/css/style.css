@@ -124,7 +124,6 @@ ul {
   color: #fff;
   border-radius: 2.8rem;
   letter-spacing: 0.5px;
-  white-space: nowrap;
 }
 
 .btn--ios:link,
@@ -146,7 +145,7 @@ ul {
 }
 
 .btn--ios:hover::after,
-.btn--ions:active::after,
+.btn--ios:active::after,
 .btn--mac:hover::after,
 .btn--mac:active::after {
   content: "";
