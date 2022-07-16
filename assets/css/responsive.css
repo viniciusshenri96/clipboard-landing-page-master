@@ -28,6 +28,10 @@
     width: 100%;
   }
 
+  .access-img {
+    width: 90%;
+  }
+
   .section-customers {
     gap: 7.5rem;
     justify-content: center;
@@ -133,7 +137,6 @@
     padding: 5.2rem 10.8rem;
     text-align: center;
   }
-
   .footer-navigation {
     grid-template-columns: 1fr;
     row-gap: 2rem;
